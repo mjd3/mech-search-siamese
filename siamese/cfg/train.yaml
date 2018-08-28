@@ -1,0 +1,16 @@
+model:
+  dir: /nfs/diskstation/mjd3/siamese/models/
+  name: feature_l2_test
+  weights: imagenet # imagenet, last, or random
+
+dataset:
+  path: /nfs/diskstation/projects/dex-net/segmentation/physical_experiments/single_obj_dataset
+
+training:
+  img_dims: [224,224,3]
+  batch_size: 8
+  shuffle_training_inputs: 1
+  use_two_gpus: 0
+  distance: l1 # l1 or l2
+  learning_rate: 0.001
+

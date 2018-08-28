@@ -1,0 +1,7 @@
+model_path: /nfs/diskstation/mjd3/siamese/models/features_l1_learned_weights_1/feature_test_feature_test_0030.h5
+dataset_path: /nfs/diskstation/projects/dex-net/segmentation/physical_experiments/single_obj_dataset
+test_cases: 4000
+img_dims: [224,224,3]
+batch_size: 8
+use_two_gpus: 0
+vis_output: 1
